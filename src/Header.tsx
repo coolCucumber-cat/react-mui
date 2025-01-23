@@ -57,10 +57,9 @@ export default function () {
 						>
 							Inventory
 						</Typography>
-						{/* Avatar Icon */}{" "}
-					</Toolbar>{" "}
-				</Container>{" "}
-			</AppBar>{" "}
+					</Toolbar>
+				</Container>
+			</AppBar>
 		</>
 	);
 }

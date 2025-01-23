@@ -10,6 +10,9 @@ export enum AnimalKind {
 	Bear,
 	Kangaroo,
 	Ant,
+	Cockroach,
+	Snake,
+	Worm,
 }
 
 export interface Animal {

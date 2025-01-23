@@ -1,5 +1,5 @@
 import { useState } from "react";
-import Modal from "./Modal";
+import Modal from "./AnimalModal";
 import AnimalList from "./AnimalList";
 import Header from "./Header";
 

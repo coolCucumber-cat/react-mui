@@ -1,6 +1,5 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import Box from "@mui/material/Box";
-import Typography from "@mui/material/Typography";
 import Table from "@mui/material/Table";
 import TableBody from "@mui/material/TableBody";
 import TableCell from "@mui/material/TableCell";
@@ -14,7 +13,29 @@ import { Animal, AnimalKind } from "./types";
 
 export default function ({ setIsModalOpen }: { setIsModalOpen: (b: boolean) => void }) {
 	const [animals, setAnimals] = useState<Animal[]>([
-		{ name: "", price: "", birthday: undefined, kind: AnimalKind.Ant },
+		{ name: "Rust >>>>>> Java > JS", price: "1312", birthday: undefined, kind: AnimalKind.Ant },
+		{
+			name: "Leptos >>>>>> Vue > React",
+			price: "1312",
+			birthday: undefined,
+			kind: AnimalKind.Ant,
+		},
+		{
+			name: "Axum >>>>>> Spring > Express",
+			price: "1312",
+			birthday: undefined,
+			kind: AnimalKind.Ant,
+		},
+		{ name: "Ohio", price: "1312", birthday: undefined, kind: AnimalKind.Ant },
+		{ name: "Rizz", price: "1312", birthday: undefined, kind: AnimalKind.Elephant },
+		{ name: "Sigma", price: "1312", birthday: undefined, kind: AnimalKind.Giraffe },
+		{ name: "Gyatt", price: "1312", birthday: undefined, kind: AnimalKind.Panda },
+		{ name: "Skibidi", price: "1312", birthday: undefined, kind: AnimalKind.Bear },
+		{ name: "Locked in alien", price: "1312", birthday: undefined, kind: AnimalKind.Kangaroo },
+		{ name: "Chill guy", price: "1312", birthday: undefined, kind: AnimalKind.Tiger },
+		{ name: "Eye of Rah", price: "1312", birthday: undefined, kind: AnimalKind.Elephant },
+		{ name: "Chopped chin", price: "1312", birthday: undefined, kind: AnimalKind.Zebra },
+		{ name: "Ligma", price: "1312", birthday: undefined, kind: AnimalKind.Lion },
 	]);
 	return (
 		<>
